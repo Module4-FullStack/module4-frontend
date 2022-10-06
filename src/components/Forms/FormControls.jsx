@@ -35,7 +35,7 @@ export function TextAreaControl({ label, required, ...rest }) {
 }
 
 export function SelectControl({
-  label, 
+  label,
   required,
   children,
   placeholder,

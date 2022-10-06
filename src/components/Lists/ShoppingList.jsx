@@ -34,14 +34,14 @@ export function ShoppingList() {
       <ItemForm onAdd={handleAdd} />
 
       <ul>
-        {list.items.map((item) => {
+        {list.items.map((item) => (
           <ListItem
             key={item.id}
             item={item}
             onBuy={handleBuy}
             onRemove={handleRemove}
-          />;
-        })}
+          />
+        ))}
       </ul>
     </section>
   );

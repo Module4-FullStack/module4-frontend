@@ -23,7 +23,7 @@ export default function User() {
       <button onClick={handleClick}>v</button>
       <div className={styles.UserMenu}>
         <Link to="user" onClick={signOut}>
-                    Sign Out
+          Sign Out
         </Link>
       </div>
     </div>

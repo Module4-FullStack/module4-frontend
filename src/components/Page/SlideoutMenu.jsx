@@ -11,7 +11,7 @@ export default function SlideoutMenu({ navigation }) {
   });
 
   const handleClick = (e) => {
-    e.stopPropogation();
+    e.stopPropagation();
     setIsOpen((isOpen) => !isOpen);
   };
 

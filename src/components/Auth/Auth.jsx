@@ -5,6 +5,7 @@ import styles from './Auth.css';
 export default function Auth() {
   const user = useUser();
 
+  // TODO: handle clever redirect to page that got us here
   if (user) return <Navigate to="/" />;
 
   return (
