@@ -1,6 +1,6 @@
 import { del, get, post } from './request.js';
 
-const URL = 'https://keen-conkies-ecc2c6.netlify.app/api/v1/users';
+const URL = 'https://module4-backend.herokuapp.com/api/v1/users';
 
 export async function signUpUser(credentials) {
   const response = await post(`${URL}/`, credentials);
