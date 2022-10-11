@@ -1,6 +1,6 @@
 import { del, get, post } from './request.js';
 
-const URL = 'http://localhost:7890/api/v1/users';
+const URL = 'https://keen-conkies-ecc2c6.netlify.app/api/v1/users';
 
 export async function signUpUser(credentials) {
   const response = await post(`${URL}/`, credentials);
