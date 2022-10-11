@@ -15,7 +15,7 @@ export async function createListItem(id, item) {
 }
 
 export async function deleteListItem(listId, itemId) {
-  return await deleteListItem(`${URL}/${listId}/items/${itemId}`);
+  return await del(`${URL}/${listId}/items/${itemId}`);
 }
 
 export async function updateListItem(listId, itemId, updates) {

@@ -26,6 +26,7 @@ export default function UserProvider({ children }) {
   
   useEffect(() => {
     verify();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   
   const setUser = (user) => {
